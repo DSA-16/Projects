@@ -1,37 +1,26 @@
-# Clean Keylogger
+# 📝 Clean Keylogger
 
-This is a simple Python keylogger that records keystrokes and saves them in a plaintext file.
+This is a simple and beginner-friendly keylogger written in Python. It captures keystrokes and saves them in a plaintext log file located in the user's `%APPDATA%\KeyLogs` directory.
 
-## Features
-- Logs every 25 keystrokes
-- Saves logs to: `%APPDATA%\KeyLogs\keystrokes.log`
-- Easy to run and modify
-- Cross-platform (with tweaks)
-- Lightweight and beginner-friendly
+> ⚠️ **This tool is for educational purposes only. Do not use it on devices you do not own or without explicit permission.**
 
-## Requirements
-- Python 3
-- `pynput` library
+---
 
-## How to Use
-1. Install dependencies:
-   ```bash
-   pip install pynput
-   ```
-2. Run the script:
-   ```bash
-   python clean_keylogger.py
-   ```
-3. Open the log file:
-   ```bash
-   notepad "%APPDATA%\KeyLogs\keystrokes.log"
-   ```
+## ✨ Features
 
-## Example Output
-```
-[2025-04-05 16:12:23] hello this is a [backspace] test [enter]
-```
+- Logs every 25 keystrokes to file
+- Timestamped entries
+- Plaintext log format for easy reading
+- Lightweight and minimal
+- Easy to run and customize
 
-## Disclaimer
-For educational purposes only. Do not use on any device without permission.
+---
 
+## 🛠 Requirements
+
+- Python 3.x
+- [`pynput`](https://pypi.org/project/pynput/)
+
+Install it with:
+```bash
+pip install pynput
