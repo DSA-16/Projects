@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "projects"
+version = "0.1.0"
+description = "A Python project for machine learning."
+authors = ["DSA-16 <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^0.24.0"
+pandas = "^1.2.0"
+numpy = "^1.19.0"
+tensorflow = "^2.5.0"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.0"
+black = "^21.4b0"
+pylint = "^2.8.3"
